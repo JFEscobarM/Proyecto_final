@@ -2,5 +2,5 @@
 <html>
   <body>
       Proyecto Final: Pagina Universitaria
-      <div aling="center">
+      <div align="center">
 
