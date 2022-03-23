@@ -1,7 +1,7 @@
 <div align="center">
         <font-size="30px">
         Proyecto Final: Pagina Universitaria
-       # Proyecto_final
+<div align="right">
 para poder crear el proye utilizamos un entorno virtual  ENV
  el primer archivo fue el app.py el cual vamos a llamar diferentes librerias para que la pagina sirve. por ejemplo esta flak que es una libreria de python que sirve para crear paginas web, flask_mysqldb es la misma libreria flask pero ahora para poderla vincular con la base de datos y notifypy es para que aparezcan notificaciones
 El inicio simplemente es todo los lenguajes que tenemos que hacerlo como el host. Donde tenemos almacenado nuestra base de datos, esta en el local host. 
