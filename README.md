@@ -1,5 +1,5 @@
 <div align="center">
-        <font-size="30px">
+<font-size="30px">
         Proyecto Final: Pagina Universitaria
 <div align="left">
 para poder crear el proye utilizamos un entorno virtual  ENV
