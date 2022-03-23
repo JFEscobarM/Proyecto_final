@@ -1,7 +1,5 @@
 <div align="center">
-  # Proyecto_final
-  
-    <div align="center">  
-    Proyecto Final: Pagina Universitaria
+        Proyecto_final
+ Proyecto Final: Pagina Universitaria
       
 
