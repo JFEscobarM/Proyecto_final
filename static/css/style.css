@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.menu{
+    
+    background: #246813;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Trebuchet MS;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 34px;
+    padding: 0 80px;
+    font-weight: bold;
+    color: white;
+    
+}
+.logo2{
+    font-size: 34px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+.logo3{
+    margin-left: 10%;
+    padding-top:100px;
+    padding-left: 220px;
+}
+
+.logo4{
+    margin-left: 21%;
+    padding-top:100px;
+    padding-left: 75px;
+}
+
+.menu-opc{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.menu-opc li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menu-opc li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: white;
+    border-radius: 15px
+}
+.menu-opc li :hover{
+    background: white;
+    transition: .4s;
+    color: #246813;
+    border-radius: 15px;
+}
+.menu-opc li a:hover{
+    color: #246813  ;
+}
+.form{
+    width: 300px;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 60px 0px;
+    border: 0px solid white;
+    text-align: center;
+    margin-left: 21%;
+}
+.form1{
+    width: 300px;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 90px 0px;
+    border: 0px solid white;
+    text-align: center;
+    margin-left: 21%;
+}
+.form1 label{
+    margin: 0;
+    padding: -15px -40px;
+    display: block;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    color: white;
+}
+.form1 button, .entrada button{
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    width: 100px;
+    background: #246813;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    list-style: none;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+}
+.form_titulo{
+    font-size: 50px;
+    font-family: Trebuchet MS;
+    color: white;
+}
+
+.form label{
+    margin: 0;
+    padding: -15px -40px;
+    display: block;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    color: white;
+}
+
+.form-input{
+    height: 35px;
+    width: 92%;
+    border: 2px solid rgba(201, 195, 195, 0.76);
+    border-radius: 5px;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form button, .entrada button{
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    width: 100px;
+    background: #246813;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    list-style: none;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+}
+
+
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 60px;
+    width: auto;
+  
+}
+.registro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 15px;
+    margin-left: 20%;
+}
+
+
+
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background:black;
+
+}
+
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+.entrada{
+    color: white;
+    font-size:x-large;
+    margin-top: 240px;
+    text-align: center;
+    font-family: Trebuchet MS;
+
+}
+.inicio{
+    color: #ffffff;
+    font-size:small;
+    margin-top: 200px;
+    text-align: center;
+    padding: 10px 10px;
+    background: rgba(0, 0, 0, 0.448);
+    
+}
+
+.inicio button{
+    border: none;
+    outline: none;
+    color: black;
+    height: 40px;
+    width: 90px;
+    background: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+}
+
+
+.home{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Trebuchet MS;
+    width: 1000px;
+    padding: 0px 260px 0px 260px;
+    
+}
+
+.home:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #246813;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+
+.home2{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home2:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #246813;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+footer{
+    position:fixed;
+   left:0px;
+   bottom:0px;
+    height:90px;
+    background: white;
+    width: 100%;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+}
+
+.container {
+    height: 100px;
+    width: 200px;
+    padding: 15px 140px 0px 10px;
+    float: right;
+}
+.foot{
+    height: 100px;
+    width: 400px;
+    float: left;
+    padding-left: 50px;
+}
+.centro{
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+    font-size: 15px;
+}
+.cen{
+    width: 20px;
+    height: 20px;
+    padding-right:10px;
+    padding-top: 15px;
+}
+
+.img{
+    padding: 20px 15px 15px 25px;
+    height: 55px;
+    width: 155px;
+}
+
+.redes{
+    width: 25px;
+    height: 25px;
+    padding-left:15px;
+    padding-top: 7px;
+}
