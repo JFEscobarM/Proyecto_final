@@ -1,4 +1,6 @@
 # Proyecto_final
 <html>
-  <title> Proyecto Final: Pagina Universitaria
-   
+  
+  Proyecto Final: Pagina Universitaria
+   <div aling="center">
+
